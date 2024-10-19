@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 2</title>
+    <link rel="stylesheet" href="module3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+           
+            <div class="navbar-container">
+                <div class="logo">
+                    <a href="#"><img src="logo.png" class="logo_pic"> </a>
+                </div>
+                <ul class="navbar">
+                    <li><a href="landingpage.html">Home</a></li>
+                    <li><a href="landingpage.html#about">About</a></li>
+                    <li><a href="landingpage.html#creators">Creators</a></li>
+                    <li><a href="#">Lessons</a></li>
+                </ul>
+                <div class="search-container">
+                    <input type="text" class="search" placeholder="Search...">
+                    <i class="fa-solid fa-magnifying-glass" style="font-size: 20px; color: white; position: absolute;"></i> 
+                </div>
+            </div>
+
+         <ul class="language-list">
+            <li>Java</li>
+            <li>Python</li>
+            <li>C++</li>
+            <li class="highlight">C#</li>
+            <li>JavaScript</li>
+            <li>Ruby</li>
+            <li>Go</li>
+        </ul>
+        
+        </nav>
+      
+        
+    </header>
+    
+
+    <div class="container">
+        <div class="scrollbar">
+            <ul>
+                <i class="fa-solid fa-arrow-right f2"></i>
+                <li> <a href="module1.html">Introduction to C#</a></li>
+                <i class="fa-solid fa-arrow-right f2"></i>
+                <li> <a href="module2.html">Conditionals and Loops in C#</a></li>
+
+                <i class="fa-solid fa-arrow-down"></i>
+                <li>Methods in C#</li>
+
+                <div class="descrip">
+                    <dd class="under_descrip"> • Introduction to C#</dd>
+                    <dd class="under_descrip"> • Variables C#</dd>
+                    <dd class="under_descrip"> • Printing </dd>
+                    <dd class="under_descrip"> • Getting user input</dd>
+                    <dd class="under_descrip"> • Comments</dd>
+                    <dd class="under_descrip"> • var keyword</dd>
+                    <dd class="under_descrip"> • Constants</dd>
+                    <dd class="under_descrip"> • Arithmetic Operators</dd>
+                    <dd class="under_descrip"> • Assignment and Increments</dd>
+                    </div>
+                    
+                    <i class="fa-solid fa-arrow-right f2"></i>
+                <li><a href="module4.html">Classes and Objects in C#</a></li>
+               
+            </ul>
+        </div>
+        <dl class="description-list">
+            <dt class="terms"> Intro to Methods </dt>
+            <dd> <span> A. What is Methods? </span> <br>
+                -	Collection of statements that are grouped together to perform a task <br>
+                -	Can be predefined automatically by C# or by the developers themselves <br>
+
+                <span> B. Advantages of using Methods </span> <br>
+                 <span> i.	Code reusability </span> <br>
+                -	    Can be called anywhere on the program <br>
+                <span> ii.	Easy testing </span> <br>
+                -	Methods are easily tested, making debugging more simplified <br>
+                <span> iii.	Modifiability </span> <br>
+                -	The program does not get affected when changing methods, making easy modifications <br>
+                <span> iv.	Input versatility </span> <br>
+                -	Methods accept various inputs such as variables and values <br>
+                 
+            <span> C.	Declaring methods </span> <br>
+            -	Methods should be declared first before using them on the program <br>
+                Method declaration must include; <br>
+                 a.	Return type: what method will return <br>
+                 b.	Method name: unique identifier for the method <br>
+                 c.	Parameters: optional inputs for methods, defined by data types and variables <br>
+
+            <span> D. Calling Methods </span> <br>
+                    -	Methods can be called by their name and passing required arguments <br>
+                    </dd>
+
+            <dt class="terms"> Method Parameters </dt>
+            <dd> -	Also called arguments, parameters are variables that accept values when passed into the <br>method they are being called <br>
+                -	Placed within a parentheses () after the method’s name <br>
+                </dd>
+
+                <dt class="terms"> Multiple Parameters </dt>
+                <dd> -	Can have more than one parameter <br> 
+                    -	Allows method to do more complex operations and multiple inputs <br>
+                    -	Values are returned using the “return” statement, denoted by “return” statement <br>
+                    -	Methods can be called with specific parameters, and they can also be assigned to variables, <br> as long as the variable can store the returned data type. <br>
+                    </dd>
+
+            <dt> Optional and named arguments </dt>
+            <dd> <span> A.	Optional arguments </span> <br>
+                -	Has a default value specified as optional parameters <br>
+                -	Default values can be overridden if there are some optional arguments that is defined <br>
+                -	Can be done by calling a method with a different set of parameter value <br>
+
+                <span> B.	Named arguments </span> <br>
+                -	Can be specified by matching the parameter’s name <br>
+                -	Allows programmers to disregard the order of parameters in a call statement for a method <br>
+                -	Uses the name of parameter followed by a ( : ) colon and the value <br>
+
+             </dd>
+
+            <dt> Method overloading </dt>
+            <dd> -	Mechanism in C# that declares multiple instances of methods that has the same value <br>while having different parameters <br>
+                -	Data type of a parameter un a particular method that will only accept values corresponding <br>to the specified data type <br>
+                -	Parameters can be used in other data types for different instances <br>
+                </dd>
+                 
+
+            <dt> Recursion </dt>
+            <dd> -	Repeated application of a procedure that reduces it to smaller, simpler version <br>
+                -	It applies or execute the procedures on itself and/or any of it’s given value, until procedure <br>cannot be applied no more <br>
+                <span> A. Recursive Methods </span> <br>
+                -	Methods that call themselves <br>
+                -	Includes a number of statement of declaration and execution <br>
+                -	Exit condition is a conditional statement that contains the base case <br>
+                -	The recursive call is a code block after the exit condition <br>
+                -	Usually contains operations and/or tasks performed for recursive process and it’s values <br>
+                -	Used on certain tasks such as arithmetic applications or finding the value of a factorial. <br>
+                
+                 </dd>
+
+                
+
+             
+                    
+     
+    <p class="quiz_text">Quiz</p>                
+    <div class="quiz-container">
+        <div class="quiz-block">
+            <h2 class="questions">Question 1</h2>
+            <p class="lines">_____________________________________________________</p>
+            <p class="questions_number">What does an “if” statement do?</p>
+            <form class="quiz-form">
+                <label class="choice-block">
+                    <input type="radio" name="answer1" value="A">
+                    A) Repeat a block of code
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer1" value="B">
+                    B) Execute a block of code when a condition is false
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer1" value="C">
+                    C) Execute a block of code when a condition return true
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer1" value="D">
+                    D) Switches between multiple cases
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="quiz-block">
+            <h2 class="questions">Question 2</h2>
+            <p class="lines">_____________________________________________________</p>
+            <h2 class="questions_number">Which of the following is true for a “switch” statement? </h2>
+            <form class="quiz-form">
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="A">
+                    A) A variable can only be checked against one value
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="B">
+                    B) It does not need break statement
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="C">
+                    C) No two causes can have the same value 
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="D">
+                    D) It cannot include multiple cases
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        
+
+        <div class="quiz-block">
+            <h2 class="questions">Question 3</h2>
+            <p class="lines">_____________________________________________________</p>
+            <h2 class="questions_number">What cis the purpose of the "else" clause in an 'if-else' statement?</h2>
+            <form class="quiz-form">
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="A">
+                    A) To execute when the 'if' condition is true
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="B">
+                    B) To execute when the 'if' condition is false
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="C">
+                    C) To repeat the loop
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="D">
+                    D) To stop the execution 
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    
+
+        <div class="quiz-block">
+            <h2 class="questions">Question 4</h2>
+            <p class="lines">_____________________________________________________</p>
+            <h2 class="questions_number">What does the "&&"(AND) operator return if one operand is false?</h2>
+            <form class="quiz-form">
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="A">
+                    A) True
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="B">
+                    B) False
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="C">
+                    C) True if both operand are true
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="D">
+                    D) Undefined
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="quiz-block">
+            <h2 class="questions">Question 5</h2>
+            <p class="lines">_____________________________________________________</p>
+            <h2 class="questions_number">Which loop guaranteed to excute atleast one?</h2>
+            <form class="quiz-form">
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="A">
+                    A) for loop
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="B">
+                    B) while loop 
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="C">
+                    C) do-whie loop
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="D">
+                    D) swicth loop
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+            </div>
+        
+
+        <div class="quiz-block">
+            <h2 class="questions">Question 6</h2>
+            <p class="lines">_____________________________________________________</p>
+            <h2 class="questions_number"> What happens when the “continue” statement is used in a loop?</h2>
+            <form class="quiz-form">
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="A">
+                    A) It stop the entire loop
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="B">
+                    B) It skips the current iteration and continues to the next one
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="C">
+                    C) It exit the loop and the program
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="D">
+                    D) It starts the loop over from the beginning
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+            </div>
+        
+        
+        
+        <div class="quiz-block">
+            <h2 class="questions">Question 7</h2>
+            <p class="lines">_____________________________________________________</p>
+            <h2 class="questions_number">In a "switch" statement, what happens if the 'break' statement is missing?</h2>
+            <form class="quiz-form">
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="A">
+                    A) Only the matching case will be executed
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="B">
+                    B) All the subsequent cases will be executed even if they don't match
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="C">
+                    C) The loop will terinate
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="D">
+                    D) The program will crash
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+            </div>
+        
+               
+        <div class="quiz-block">
+            <h2 class="questions">Question 8</h2>
+            <p class="lines">_____________________________________________________</p>
+            <h2 class="questions_number">What does the conditional(ternary(?)) operator do?</h2>
+            <form class="quiz-form">
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="A">
+                    A) Executes a block of code in a loop
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="B">
+                    B) Reverses the result of a Boolean expression
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="C">
+                    C) Simplifies expressions by evaluating a condition and returning one of two values
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="D">
+                    D) Executes multiple cases in a `switch` statement
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+            </div>
+        
+                    
+        <div class="quiz-block">
+            <h2 class="questions">Question 9</h2>
+            <p class="lines">_____________________________________________________</p>
+            <h2 class="questions_number">What is the difference between the "while" and "for" loops</h2>
+            <form class="quiz-form">
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="A">
+                    A) "for" loops dont need a condition
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="B">
+                    B) "while" loops run a specific number of times
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="C">
+                    C) "for" loops include initialization, condition, and increment in one line
+                </label>
+                <label class="choice-block">
+                    <input type="radio" name="answer2" value="D">
+                    D) "while" loops exceute atleast once
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+            </div>
+
+            <div class="quiz-block">
+                <h2 class="questions">Question 10</h2>
+                <p class="lines">_____________________________________________________</p>
+                <h2 class="questions_number">Which operator returns true if atleast one operand is true?</h2>
+                <form class="quiz-form">
+                    <label class="choice-block">
+                        <input type="radio" name="answer2" value="A">
+                        A) AND (&&)
+                    </label>
+                    <label class="choice-block">
+                        <input type="radio" name="answer2" value="B">
+                        B) OR (||)
+                    </label>
+                    <label class="choice-block">
+                        <input type="radio" name="answer2" value="C">
+                        C) NOT (!)
+                    </label>
+                    <label class="choice-block">
+                        <input type="radio" name="answer2" value="D">
+                        D) XOR
+                    </label>
+                    <button type="submit">Submit</button>
+                </form>
+                </div>
+    
+
+        </div>
+    </div> 
+    </dl>
+</div>
+
+
+
+<footer class="footer">
+    <div class="footer-icons">
+        <a href="https://facebook.com" class="icon facebook">
+            <img src="facebook.png" alt="Facebook">
+        </a>
+        <a href="instagram.jpg" class="icon instagram">
+            <img src="instagram.jpg" alt="Instagram">
+        </a>
+        <a href="https://youtube.com" class="icon youtube">
+            <img src="youtube_orig.png" alt="YouTube">
+        </a>
+    </div>
+    <p>All rights reserved</p>
+</footer>
+
+</body>
+</html>
